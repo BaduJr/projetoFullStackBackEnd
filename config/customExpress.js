@@ -12,7 +12,7 @@ module.exports = () => {
     //     optionsSuccessStatus: 200
     // }
     cors: {
-        origin: ["www.one.com","www.two.com","www.three.com"]
+        origin: ["http://demoappfullstack.s3-website-sa-east-1.amazonaws.com/","http://localhost:4200"]
     }
     
     app.all('*', function(req, res, next) {
