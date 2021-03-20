@@ -6,8 +6,9 @@ const cors = require('cors')
 module.exports = () => {
     const app = express();
 
+    //origin: 'http://localhost:4200',
     var corsOptions = {
-        origin: 'http://localhost:4200',
+        origin: 'http://demoappfullstack.s3-website-sa-east-1.amazonaws.com/',
         optionsSuccessStatus: 200
     }
 
